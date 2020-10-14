@@ -1,0 +1,43 @@
+{
+  "name": "frontend-tdd-feconf2020",
+  "version": "1.0.0",
+  "description": "FEConf2020 Frontend TDD로 개발하기 예제.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "test": "jest",
+    "watch": "jest --watchAll",
+    "lint": "eslint --fix --ext js,jsx ."
+  },
+  "author": "wholemann",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@types/jest": "^26.0.14",
+    "babel-jest": "^26.5.2",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "jest": "^26.5.3",
+    "jest-plugin-context": "^2.9.0",
+    "redux-mock-store": "^1.5.4",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
